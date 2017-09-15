@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056950F254E2959B52FF0C22 /* libPods-HOYInke_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1299E53F205A953BEF5A36B9 /* libPods-HOYInke_Demo.a */; };
+		ACC051D01F6B9CA100F73798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC051CF1F6B9CA100F73798 /* main.m */; };
+		ACC051D31F6B9CA100F73798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC051D21F6B9CA100F73798 /* AppDelegate.m */; };
+		ACC051D61F6B9CA100F73798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC051D51F6B9CA100F73798 /* ViewController.m */; };
+		ACC051D91F6B9CA100F73798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC051D71F6B9CA100F73798 /* Main.storyboard */; };
+		ACC051DB1F6B9CA100F73798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC051DA1F6B9CA100F73798 /* Assets.xcassets */; };
+		ACC051DE1F6B9CA100F73798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC051DC1F6B9CA100F73798 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E1D7CE9339FFC4EA590CC0C /* Pods-HOYInke_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOYInke_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOYInke_Demo/Pods-HOYInke_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		1299E53F205A953BEF5A36B9 /* libPods-HOYInke_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HOYInke_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905421F29FBCDF2FAE66173D /* Pods-HOYInke_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOYInke_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOYInke_Demo/Pods-HOYInke_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		ACC051CB1F6B9CA100F73798 /* HOYInke_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOYInke_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC051CF1F6B9CA100F73798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACC051D11F6B9CA100F73798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		ACC051D21F6B9CA100F73798 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		ACC051D41F6B9CA100F73798 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		ACC051D51F6B9CA100F73798 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
+		ACC051D81F6B9CA100F73798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACC051DA1F6B9CA100F73798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC051DD1F6B9CA100F73798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACC051DF1F6B9CA100F73798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC052021F6BA43F00F73798 /* HOYPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOYPrefixHeader.pch; sourceTree = "<group>"; };
+		ACC052031F6BA66000F73798 /* HOYMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOYMacros.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC051C81F6B9CA000F73798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056950F254E2959B52FF0C22 /* libPods-HOYInke_Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83F78FE79E7B88CB6C2E8D4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1299E53F205A953BEF5A36B9 /* libPods-HOYInke_Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACC051C21F6B9CA000F73798 = {
+			isa = PBXGroup;
+			children = (
+				ACC051CD1F6B9CA100F73798 /* HOYInke_Demo */,
+				ACC051CC1F6B9CA100F73798 /* Products */,
+				E9D41DF57D5D9BFF79C254AC /* Pods */,
+				83F78FE79E7B88CB6C2E8D4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC051CC1F6B9CA100F73798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC051CB1F6B9CA100F73798 /* HOYInke_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC051CD1F6B9CA100F73798 /* HOYInke_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				ACC051E61F6B9F9400F73798 /* Class */,
+				ACC051CE1F6B9CA100F73798 /* Supporting Files */,
+			);
+			path = HOYInke_Demo;
+			sourceTree = "<group>";
+		};
+		ACC051CE1F6B9CA100F73798 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACC051D71F6B9CA100F73798 /* Main.storyboard */,
+				ACC051DA1F6B9CA100F73798 /* Assets.xcassets */,
+				ACC051DC1F6B9CA100F73798 /* LaunchScreen.storyboard */,
+				ACC051DF1F6B9CA100F73798 /* Info.plist */,
+				ACC051CF1F6B9CA100F73798 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACC051E61F6B9F9400F73798 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				ACC051E71F6B9F9400F73798 /* Base */,
+				ACC051E81F6B9F9400F73798 /* Helper */,
+				ACC051EB1F6B9F9400F73798 /* Lib */,
+				ACC051EC1F6B9F9400F73798 /* Live */,
+				ACC051ED1F6B9F9400F73798 /* Luanch */,
+				ACC051F21F6B9F9400F73798 /* Me */,
+				ACC051F91F6B9F9400F73798 /* Show */,
+				ACC051F71F6B9F9400F73798 /* NetWork */,
+				ACC051F81F6B9F9400F73798 /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		ACC051E71F6B9F9400F73798 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		ACC051E81F6B9F9400F73798 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ACC051E91F6B9F9400F73798 /* Category */,
+				ACC051EA1F6B9F9400F73798 /* Tool */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		ACC051E91F6B9F9400F73798 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		ACC051EA1F6B9F9400F73798 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		ACC051EB1F6B9F9400F73798 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		ACC051EC1F6B9F9400F73798 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				ACC051FE1F6B9FC700F73798 /* Handle */,
+				ACC051FF1F6B9FC700F73798 /* Model */,
+				ACC052001F6B9FC700F73798 /* View */,
+				ACC052011F6B9FC700F73798 /* ViewController */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		ACC051ED1F6B9F9400F73798 /* Luanch */ = {
+			isa = PBXGroup;
+			children = (
+				ACC051EE1F6B9F9400F73798 /* Handle */,
+				ACC051EF1F6B9F9400F73798 /* Model */,
+				ACC051F01F6B9F9400F73798 /* View */,
+				ACC051F11F6B9F9400F73798 /* ViewController */,
+			);
+			path = Luanch;
+			sourceTree = "<group>";
+		};
+		ACC051EE1F6B9F9400F73798 /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		ACC051EF1F6B9F9400F73798 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACC051F01F6B9F9400F73798 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACC051F11F6B9F9400F73798 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ACC051F21F6B9F9400F73798 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				ACC051F31F6B9F9400F73798 /* Handle */,
+				ACC051F41F6B9F9400F73798 /* Model */,
+				ACC051F51F6B9F9400F73798 /* View */,
+				ACC051F61F6B9F9400F73798 /* ViewController */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		ACC051F31F6B9F9400F73798 /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		ACC051F41F6B9F9400F73798 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACC051F51F6B9F9400F73798 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACC051F61F6B9F9400F73798 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ACC051F71F6B9F9400F73798 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		ACC051F81F6B9F9400F73798 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ACC051D41F6B9CA100F73798 /* ViewController.h */,
+				ACC051D51F6B9CA100F73798 /* ViewController.m */,
+				ACC051D11F6B9CA100F73798 /* AppDelegate.h */,
+				ACC051D21F6B9CA100F73798 /* AppDelegate.m */,
+				ACC052021F6BA43F00F73798 /* HOYPrefixHeader.pch */,
+				ACC052031F6BA66000F73798 /* HOYMacros.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		ACC051F91F6B9F9400F73798 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				ACC051FA1F6B9F9400F73798 /* Handle */,
+				ACC051FB1F6B9F9400F73798 /* Model */,
+				ACC051FC1F6B9F9400F73798 /* View */,
+				ACC051FD1F6B9F9400F73798 /* ViewController */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		ACC051FA1F6B9F9400F73798 /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		ACC051FB1F6B9F9400F73798 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACC051FC1F6B9F9400F73798 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACC051FD1F6B9F9400F73798 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ACC051FE1F6B9FC700F73798 /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		ACC051FF1F6B9FC700F73798 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACC052001F6B9FC700F73798 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACC052011F6B9FC700F73798 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E9D41DF57D5D9BFF79C254AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				905421F29FBCDF2FAE66173D /* Pods-HOYInke_Demo.debug.xcconfig */,
+				0E1D7CE9339FFC4EA590CC0C /* Pods-HOYInke_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC051CA1F6B9CA000F73798 /* HOYInke_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC051E21F6B9CA100F73798 /* Build configuration list for PBXNativeTarget "HOYInke_Demo" */;
+			buildPhases = (
+				FE0AC14050FCB4906256E6AD /* [CP] Check Pods Manifest.lock */,
+				ACC051C71F6B9CA000F73798 /* Sources */,
+				ACC051C81F6B9CA000F73798 /* Frameworks */,
+				ACC051C91F6B9CA000F73798 /* Resources */,
+				F3A8923A7CD671590414707C /* [CP] Embed Pods Frameworks */,
+				ECE94C748C59E4BBB53E3D6D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HOYInke_Demo;
+			productName = HOYInke_Demo;
+			productReference = ACC051CB1F6B9CA100F73798 /* HOYInke_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC051C31F6B9CA000F73798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.hrobrty;
+				TargetAttributes = {
+					ACC051CA1F6B9CA000F73798 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MN96N4W443;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACC051C61F6B9CA000F73798 /* Build configuration list for PBXProject "HOYInke_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC051C21F6B9CA000F73798;
+			productRefGroup = ACC051CC1F6B9CA100F73798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC051CA1F6B9CA000F73798 /* HOYInke_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC051C91F6B9CA000F73798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC051DE1F6B9CA100F73798 /* LaunchScreen.storyboard in Resources */,
+				ACC051DB1F6B9CA100F73798 /* Assets.xcassets in Resources */,
+				ACC051D91F6B9CA100F73798 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ECE94C748C59E4BBB53E3D6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HOYInke_Demo/Pods-HOYInke_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A8923A7CD671590414707C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HOYInke_Demo/Pods-HOYInke_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE0AC14050FCB4906256E6AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC051C71F6B9CA000F73798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC051D61F6B9CA100F73798 /* ViewController.m in Sources */,
+				ACC051D31F6B9CA100F73798 /* AppDelegate.m in Sources */,
+				ACC051D01F6B9CA100F73798 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACC051D71F6B9CA100F73798 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC051D81F6B9CA100F73798 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACC051DC1F6B9CA100F73798 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC051DD1F6B9CA100F73798 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC051E01F6B9CA100F73798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACC051E11F6B9CA100F73798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC051E31F6B9CA100F73798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905421F29FBCDF2FAE66173D /* Pods-HOYInke_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MN96N4W443;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HOYInke_Demo/Class/Other/HOYPrefixHeader.pch";
+				INFOPLIST_FILE = HOYInke_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hrobrty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACC051E41F6B9CA100F73798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1D7CE9339FFC4EA590CC0C /* Pods-HOYInke_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MN96N4W443;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HOYInke_Demo/Class/Other/HOYPrefixHeader.pch";
+				INFOPLIST_FILE = HOYInke_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hrobrty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC051C61F6B9CA000F73798 /* Build configuration list for PBXProject "HOYInke_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC051E01F6B9CA100F73798 /* Debug */,
+				ACC051E11F6B9CA100F73798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC051E21F6B9CA100F73798 /* Build configuration list for PBXNativeTarget "HOYInke_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC051E31F6B9CA100F73798 /* Debug */,
+				ACC051E41F6B9CA100F73798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC051C31F6B9CA000F73798 /* Project object */;
+}
