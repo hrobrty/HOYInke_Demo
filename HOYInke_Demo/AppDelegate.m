@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "HOYTabBarViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    self.window = [UIWindow new];
+   
+    HOYTabBarViewController * mainVc = [[HOYTabBarViewController alloc] init];
+    
+    self.window.rootViewController = mainVc ;
+    
+    [self.window makeKeyAndVisible];
+    
+    self.window.frame = [[UIScreen mainScreen] bounds];
+    
+    
     return YES;
 }
 

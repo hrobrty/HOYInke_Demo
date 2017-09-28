@@ -14,6 +14,22 @@
 		ACC051D91F6B9CA100F73798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC051D71F6B9CA100F73798 /* Main.storyboard */; };
 		ACC051DB1F6B9CA100F73798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC051DA1F6B9CA100F73798 /* Assets.xcassets */; };
 		ACC051DE1F6B9CA100F73798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC051DC1F6B9CA100F73798 /* LaunchScreen.storyboard */; };
+		ACDDDE591F7BB3AE00343747 /* HOYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDDE581F7BB3AE00343747 /* HOYTabBarViewController.m */; };
+		ACDDDE5F1F7BB45E00343747 /* HOYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDDE5E1F7BB45E00343747 /* HOYTabBar.m */; };
+		ACEAA6AD1F7CDAED0095BD97 /* HOYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA6AC1F7CDAED0095BD97 /* HOYBaseViewController.m */; };
+		ACEAA6B11F7CDB080095BD97 /* HOYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA6AF1F7CDB080095BD97 /* HOYMainViewController.m */; };
+		ACEAA6B21F7CDB080095BD97 /* HOYMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEAA6B01F7CDB080095BD97 /* HOYMainViewController.xib */; };
+		ACEAA6B61F7CDB1C0095BD97 /* HOYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA6B41F7CDB1C0095BD97 /* HOYMeViewController.m */; };
+		ACEAA6B71F7CDB1C0095BD97 /* HOYMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEAA6B51F7CDB1C0095BD97 /* HOYMeViewController.xib */; };
+		ACEAA6BA1F7CDC840095BD97 /* HOYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA6B91F7CDC840095BD97 /* HOYBaseNavigationController.m */; };
+		ACEAA6C11F7CEB550095BD97 /* HOYLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA6BF1F7CEB550095BD97 /* HOYLaunchViewController.m */; };
+		ACEAA6C21F7CEB550095BD97 /* HOYLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEAA6C01F7CEB550095BD97 /* HOYLaunchViewController.xib */; };
+		ACEAA6C61F7CF4210095BD97 /* HOYFocuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA6C41F7CF4210095BD97 /* HOYFocuseViewController.m */; };
+		ACEAA6C71F7CF4210095BD97 /* HOYFocuseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEAA6C51F7CF4210095BD97 /* HOYFocuseViewController.xib */; };
+		ACEAA6CB1F7CF43F0095BD97 /* HOYHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA6C91F7CF43F0095BD97 /* HOYHotViewController.m */; };
+		ACEAA6CC1F7CF43F0095BD97 /* HOYHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEAA6CA1F7CF43F0095BD97 /* HOYHotViewController.xib */; };
+		ACEAA6D01F7CF4650095BD97 /* HOYNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA6CE1F7CF4650095BD97 /* HOYNearViewController.m */; };
+		ACEAA6D11F7CF4650095BD97 /* HOYNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEAA6CF1F7CF4650095BD97 /* HOYNearViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +48,32 @@
 		ACC051DF1F6B9CA100F73798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACC052021F6BA43F00F73798 /* HOYPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOYPrefixHeader.pch; sourceTree = "<group>"; };
 		ACC052031F6BA66000F73798 /* HOYMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOYMacros.h; sourceTree = "<group>"; };
+		ACDDDE571F7BB3AE00343747 /* HOYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOYTabBarViewController.h; sourceTree = "<group>"; };
+		ACDDDE581F7BB3AE00343747 /* HOYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOYTabBarViewController.m; sourceTree = "<group>"; };
+		ACDDDE5D1F7BB45E00343747 /* HOYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOYTabBar.h; sourceTree = "<group>"; };
+		ACDDDE5E1F7BB45E00343747 /* HOYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOYTabBar.m; sourceTree = "<group>"; };
+		ACEAA6AB1F7CDAED0095BD97 /* HOYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOYBaseViewController.h; sourceTree = "<group>"; };
+		ACEAA6AC1F7CDAED0095BD97 /* HOYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOYBaseViewController.m; sourceTree = "<group>"; };
+		ACEAA6AE1F7CDB080095BD97 /* HOYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOYMainViewController.h; sourceTree = "<group>"; };
+		ACEAA6AF1F7CDB080095BD97 /* HOYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOYMainViewController.m; sourceTree = "<group>"; };
+		ACEAA6B01F7CDB080095BD97 /* HOYMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HOYMainViewController.xib; sourceTree = "<group>"; };
+		ACEAA6B31F7CDB1C0095BD97 /* HOYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOYMeViewController.h; sourceTree = "<group>"; };
+		ACEAA6B41F7CDB1C0095BD97 /* HOYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOYMeViewController.m; sourceTree = "<group>"; };
+		ACEAA6B51F7CDB1C0095BD97 /* HOYMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HOYMeViewController.xib; sourceTree = "<group>"; };
+		ACEAA6B81F7CDC840095BD97 /* HOYBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOYBaseNavigationController.h; sourceTree = "<group>"; };
+		ACEAA6B91F7CDC840095BD97 /* HOYBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOYBaseNavigationController.m; sourceTree = "<group>"; };
+		ACEAA6BE1F7CEB550095BD97 /* HOYLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOYLaunchViewController.h; sourceTree = "<group>"; };
+		ACEAA6BF1F7CEB550095BD97 /* HOYLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOYLaunchViewController.m; sourceTree = "<group>"; };
+		ACEAA6C01F7CEB550095BD97 /* HOYLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HOYLaunchViewController.xib; sourceTree = "<group>"; };
+		ACEAA6C31F7CF4210095BD97 /* HOYFocuseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOYFocuseViewController.h; sourceTree = "<group>"; };
+		ACEAA6C41F7CF4210095BD97 /* HOYFocuseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOYFocuseViewController.m; sourceTree = "<group>"; };
+		ACEAA6C51F7CF4210095BD97 /* HOYFocuseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HOYFocuseViewController.xib; sourceTree = "<group>"; };
+		ACEAA6C81F7CF43F0095BD97 /* HOYHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOYHotViewController.h; sourceTree = "<group>"; };
+		ACEAA6C91F7CF43F0095BD97 /* HOYHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOYHotViewController.m; sourceTree = "<group>"; };
+		ACEAA6CA1F7CF43F0095BD97 /* HOYHotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HOYHotViewController.xib; sourceTree = "<group>"; };
+		ACEAA6CD1F7CF4650095BD97 /* HOYNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOYNearViewController.h; sourceTree = "<group>"; };
+		ACEAA6CE1F7CF4650095BD97 /* HOYNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOYNearViewController.m; sourceTree = "<group>"; };
+		ACEAA6CF1F7CF4650095BD97 /* HOYNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HOYNearViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +154,14 @@
 		ACC051E71F6B9F9400F73798 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				ACDDDE571F7BB3AE00343747 /* HOYTabBarViewController.h */,
+				ACDDDE581F7BB3AE00343747 /* HOYTabBarViewController.m */,
+				ACDDDE5D1F7BB45E00343747 /* HOYTabBar.h */,
+				ACDDDE5E1F7BB45E00343747 /* HOYTabBar.m */,
+				ACEAA6AB1F7CDAED0095BD97 /* HOYBaseViewController.h */,
+				ACEAA6AC1F7CDAED0095BD97 /* HOYBaseViewController.m */,
+				ACEAA6B81F7CDC840095BD97 /* HOYBaseNavigationController.h */,
+				ACEAA6B91F7CDC840095BD97 /* HOYBaseNavigationController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -290,6 +340,21 @@
 		ACC051FD1F6B9F9400F73798 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				ACEAA6AE1F7CDB080095BD97 /* HOYMainViewController.h */,
+				ACEAA6AF1F7CDB080095BD97 /* HOYMainViewController.m */,
+				ACEAA6B01F7CDB080095BD97 /* HOYMainViewController.xib */,
+				ACEAA6B31F7CDB1C0095BD97 /* HOYMeViewController.h */,
+				ACEAA6B41F7CDB1C0095BD97 /* HOYMeViewController.m */,
+				ACEAA6B51F7CDB1C0095BD97 /* HOYMeViewController.xib */,
+				ACEAA6C31F7CF4210095BD97 /* HOYFocuseViewController.h */,
+				ACEAA6C41F7CF4210095BD97 /* HOYFocuseViewController.m */,
+				ACEAA6C51F7CF4210095BD97 /* HOYFocuseViewController.xib */,
+				ACEAA6C81F7CF43F0095BD97 /* HOYHotViewController.h */,
+				ACEAA6C91F7CF43F0095BD97 /* HOYHotViewController.m */,
+				ACEAA6CA1F7CF43F0095BD97 /* HOYHotViewController.xib */,
+				ACEAA6CD1F7CF4650095BD97 /* HOYNearViewController.h */,
+				ACEAA6CE1F7CF4650095BD97 /* HOYNearViewController.m */,
+				ACEAA6CF1F7CF4650095BD97 /* HOYNearViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -318,6 +383,9 @@
 		ACC052011F6B9FC700F73798 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				ACEAA6BE1F7CEB550095BD97 /* HOYLaunchViewController.h */,
+				ACEAA6BF1F7CEB550095BD97 /* HOYLaunchViewController.m */,
+				ACEAA6C01F7CEB550095BD97 /* HOYLaunchViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -360,6 +428,7 @@
 		ACC051C31F6B9CA000F73798 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HOY;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = com.hrobrty;
 				TargetAttributes = {
@@ -395,6 +464,12 @@
 			files = (
 				ACC051DE1F6B9CA100F73798 /* LaunchScreen.storyboard in Resources */,
 				ACC051DB1F6B9CA100F73798 /* Assets.xcassets in Resources */,
+				ACEAA6C71F7CF4210095BD97 /* HOYFocuseViewController.xib in Resources */,
+				ACEAA6CC1F7CF43F0095BD97 /* HOYHotViewController.xib in Resources */,
+				ACEAA6B71F7CDB1C0095BD97 /* HOYMeViewController.xib in Resources */,
+				ACEAA6B21F7CDB080095BD97 /* HOYMainViewController.xib in Resources */,
+				ACEAA6C21F7CEB550095BD97 /* HOYLaunchViewController.xib in Resources */,
+				ACEAA6D11F7CF4650095BD97 /* HOYNearViewController.xib in Resources */,
 				ACC051D91F6B9CA100F73798 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,9 +529,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEAA6C11F7CEB550095BD97 /* HOYLaunchViewController.m in Sources */,
 				ACC051D61F6B9CA100F73798 /* ViewController.m in Sources */,
+				ACEAA6B61F7CDB1C0095BD97 /* HOYMeViewController.m in Sources */,
+				ACEAA6C61F7CF4210095BD97 /* HOYFocuseViewController.m in Sources */,
+				ACEAA6BA1F7CDC840095BD97 /* HOYBaseNavigationController.m in Sources */,
 				ACC051D31F6B9CA100F73798 /* AppDelegate.m in Sources */,
+				ACEAA6AD1F7CDAED0095BD97 /* HOYBaseViewController.m in Sources */,
+				ACEAA6CB1F7CF43F0095BD97 /* HOYHotViewController.m in Sources */,
 				ACC051D01F6B9CA100F73798 /* main.m in Sources */,
+				ACDDDE591F7BB3AE00343747 /* HOYTabBarViewController.m in Sources */,
+				ACEAA6B11F7CDB080095BD97 /* HOYMainViewController.m in Sources */,
+				ACEAA6D01F7CF4650095BD97 /* HOYNearViewController.m in Sources */,
+				ACDDDE5F1F7BB45E00343747 /* HOYTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,14 +662,15 @@
 			baseConfigurationReference = 905421F29FBCDF2FAE66173D /* Pods-HOYInke_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchScreen;
 				DEVELOPMENT_TEAM = MN96N4W443;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HOYInke_Demo/Class/Other/HOYPrefixHeader.pch";
 				INFOPLIST_FILE = HOYInke_Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hrobrty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -593,14 +679,15 @@
 			baseConfigurationReference = 0E1D7CE9339FFC4EA590CC0C /* Pods-HOYInke_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchScreen;
 				DEVELOPMENT_TEAM = MN96N4W443;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HOYInke_Demo/Class/Other/HOYPrefixHeader.pch";
 				INFOPLIST_FILE = HOYInke_Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hrobrty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

@@ -1,33 +1,29 @@
 //
-//  ViewController.m
+//  HOYHotViewController.m
 //  HOYInke_Demo
 //
-//  Created by hrobrty on 2017/9/15.
+//  Created by hrobrty on 2017/9/28.
 //  Copyright © 2017年 com.hrobrty. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HOYHotViewController.h"
 
-@interface ViewController ()
+@interface HOYHotViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HOYHotViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-  
     
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
-    
-    
 }
+
 
 
 @end

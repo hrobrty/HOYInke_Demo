@@ -1,31 +1,27 @@
+
 //
-//  ViewController.m
+//  HOYFocuseViewController.m
 //  HOYInke_Demo
 //
-//  Created by hrobrty on 2017/9/15.
+//  Created by hrobrty on 2017/9/28.
 //  Copyright © 2017年 com.hrobrty. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HOYFocuseViewController.h"
 
-@interface ViewController ()
+@interface HOYFocuseViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HOYFocuseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-  
     
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
-    
     
 }
 
