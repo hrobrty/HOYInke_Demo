@@ -9,7 +9,7 @@
 #ifndef HOYPrefixHeader_pch
 #define HOYPrefixHeader_pch
 
-
+#import "APIConfig.h"
 
 #import "UIButton+WebCache.h"
 //#import "UIImageView+SDWebImage.h"

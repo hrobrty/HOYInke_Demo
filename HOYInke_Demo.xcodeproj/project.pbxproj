@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		056950F254E2959B52FF0C22 /* libPods-HOYInke_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1299E53F205A953BEF5A36B9 /* libPods-HOYInke_Demo.a */; };
+		ACB4435D1F7E130600A50C3A /* HOYMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB4435C1F7E130600A50C3A /* HOYMainTopView.m */; };
 		ACC051D01F6B9CA100F73798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC051CF1F6B9CA100F73798 /* main.m */; };
 		ACC051D31F6B9CA100F73798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC051D21F6B9CA100F73798 /* AppDelegate.m */; };
 		ACC051D61F6B9CA100F73798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC051D51F6B9CA100F73798 /* ViewController.m */; };
@@ -36,6 +37,9 @@
 		0E1D7CE9339FFC4EA590CC0C /* Pods-HOYInke_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOYInke_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOYInke_Demo/Pods-HOYInke_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		1299E53F205A953BEF5A36B9 /* libPods-HOYInke_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HOYInke_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		905421F29FBCDF2FAE66173D /* Pods-HOYInke_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOYInke_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOYInke_Demo/Pods-HOYInke_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		ACB4435B1F7E130600A50C3A /* HOYMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOYMainTopView.h; sourceTree = "<group>"; };
+		ACB4435C1F7E130600A50C3A /* HOYMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOYMainTopView.m; sourceTree = "<group>"; };
+		ACB4435E1F7E2AC500A50C3A /* APIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
 		ACC051CB1F6B9CA100F73798 /* HOYInke_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOYInke_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC051CF1F6B9CA100F73798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACC051D11F6B9CA100F73798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -288,6 +292,7 @@
 		ACC051F71F6B9F9400F73798 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
+				ACB4435E1F7E2AC500A50C3A /* APIConfig.h */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -333,6 +338,8 @@
 		ACC051FC1F6B9F9400F73798 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ACB4435B1F7E130600A50C3A /* HOYMainTopView.h */,
+				ACB4435C1F7E130600A50C3A /* HOYMainTopView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -533,6 +540,7 @@
 				ACC051D61F6B9CA100F73798 /* ViewController.m in Sources */,
 				ACEAA6B61F7CDB1C0095BD97 /* HOYMeViewController.m in Sources */,
 				ACEAA6C61F7CF4210095BD97 /* HOYFocuseViewController.m in Sources */,
+				ACB4435D1F7E130600A50C3A /* HOYMainTopView.m in Sources */,
 				ACEAA6BA1F7CDC840095BD97 /* HOYBaseNavigationController.m in Sources */,
 				ACC051D31F6B9CA100F73798 /* AppDelegate.m in Sources */,
 				ACEAA6AD1F7CDAED0095BD97 /* HOYBaseViewController.m in Sources */,
